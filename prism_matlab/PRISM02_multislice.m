@@ -9,7 +9,7 @@ drBins3D = 1 / 1000;  % spacing of bins in 3D output [rads]
 
 % 4D output
 flagOutput4D = true;
-thicknessOutput = 10:50:500;
+thicknessOutput = 20:20:200; %angstrom
 % thicknessOutput = 100;
 
 emdSTEM.E0 = 300e3;       % Microscope voltage [Volts]
